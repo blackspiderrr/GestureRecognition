@@ -1,0 +1,65 @@
+T2D04 000:010.443   SEGGER J-Link V7.22b Log File
+T2D04 000:010.639   DLL Compiled: Jun 17 2021 17:22:49
+T2D04 000:010.706   Logging started @ 2024-07-24 11:30
+T2D04 000:010.772 - 10.805ms
+T2D04 000:010.848 JLINK_SetWarnOutHandler(...)
+T2D04 000:010.918 - 0.102ms
+T2D04 000:010.984 JLINK_OpenEx(...)
+T2D04 000:017.752   Looking for J-Link GUI Server exe at: D:\smartcar\MDK\ARM\Segger\JLinkGUIServer.exe
+T2D04 000:017.978   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T2D04 000:319.539   Failed to connect to J-Link GUI Server.
+T2D04 004:541.788   TELNET listener socket opened on port 19021
+T2D04 004:542.029   WEBSRV Starting webserver
+T2D04 004:542.235   WEBSRV Webserver running on local port 19080
+T2D04 004:542.501 - 4531.532ms returns "O.K."
+T2D04 004:542.556 JLINK_GetEmuCaps()
+T2D04 004:542.588 - 0.047ms returns 0x98E61B83
+T2D04 004:542.625 JLINK_TIF_GetAvailable(...)
+T2D04 004:542.655 - 0.045ms
+T2D04 004:542.687 JLINK_SetErrorOutHandler(...)
+T2D04 004:542.717 - 0.044ms
+T2D04 004:542.771 JLINK_ExecCommand("ProjectFile = "D:\homework\gesture\MDK-ARM\JLinkSettings.ini"", ...). 
+T2D04 004:563.444 - 20.696ms returns 0x00
+T2D04 004:566.635 JLINK_ExecCommand("Device = STM32G030C8Tx", ...). 
+T2D04 030:561.744   Device "ARM7" selected.
+T2D04 030:562.280 - 15.334ms returns 0x00
+T2D04 030:562.329 JLINK_GetHardwareVersion()
+T2D04 030:564.266 - 1.965ms returns 20000
+T2D04 030:564.320 JLINK_GetDLLVersion()
+T2D04 030:564.358 - 0.056ms returns 72202
+T2D04 030:564.397 JLINK_GetOEMString(...)
+T2D04 030:564.436 JLINK_GetFirmwareString(...)
+T2D04 030:564.478 - 0.060ms
+T2D04 030:572.643 JLINK_GetDLLVersion()
+T2D04 030:572.692 - 0.065ms returns 72202
+T2D04 030:572.725 JLINK_GetCompileDateTime()
+T2D04 030:572.756 - 0.045ms
+T2D04 030:574.938 JLINK_GetFirmwareString(...)
+T2D04 030:574.984 - 0.061ms
+T2D04 030:577.175 JLINK_GetHardwareVersion()
+T2D04 030:577.220 - 0.059ms returns 20000
+T2D04 030:579.466 JLINK_GetSN()
+T2D04 030:579.509 - 0.058ms returns 1044323651
+T2D04 030:581.711 JLINK_GetOEMString(...)
+T2D04 034:878.393 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T2D04 034:878.498   
+  ***** Error: 
+T2D04 034:878.548   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T2D04 034:878.593 - 0.215ms returns 0x01
+T2D04 034:884.706 JLINK_HasError()
+T2D04 034:884.816 JLINK_SetSpeed(5000)
+T2D04 034:884.864 - 0.064ms
+T2D04 034:884.899 JLINK_GetId()
+T2D04 034:940.239   
+  ***** Error: 
+T2D04 034:940.322   ARM7 is not supported via SWD
+T2D04 035:004.354   
+  ***** Error: 
+T2D04 035:004.440   ARM7 is not supported via SWD
+T2D04 035:004.486 - 119.602ms returns 0x00000000
+T2D04 036:643.006 JLINK_Close()
+T2D04 036:655.399 - 12.437ms
+T2D04 036:655.460   
+T2D04 036:655.491   Closed
